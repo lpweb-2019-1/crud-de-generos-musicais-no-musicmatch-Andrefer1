@@ -11,7 +11,7 @@ import { catchError } from 'rxjs/operators';
 })
 export class ArtistasService extends DadosBaseService {
   URL = 'http://localhost:8000/api/artistas/';
-
+  
   /**
    * Este método realiza uma requisição GET à API com o objetivo
    * de obter a lista de artistas.
